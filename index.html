@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pendaftaran Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pendaftaran Mahasiswa</h1>
+    <div>
+        <label for="nama">Nama Mahasiswa:</label>
+        <input type="text" id="nama" />
+    </div>
+    <div>
+        <label for="nomor_mahasiswa">Nomor Mahasiswa:</label>
+        <input type="text" id="nomor_mahasiswa" />
+    </div>
+    <div>
+        <label for="program_studi">Program Studi:</label>
+        <input type="text" id="program_studi" />
+    </div>
+    <button onclick="daftarMahasiswa()">Daftar</button>
+
+    <h2>Daftar Mahasiswa Terdaftar</h2>
+    <ul id="daftarMahasiswa">
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
